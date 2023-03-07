@@ -6,4 +6,4 @@ console.log(userNum);
 console.log(userName);
 console.log(userLName);
 console.log(userColor);
-document.getElementById('myPsw').innerHTML = `<h1>${userName}${userLName}${userColor}${userNum}</h1>`;
+document.getElementById('myPsw').innerHTML = `${userName}${userLName}${userColor}${userNum}`;
